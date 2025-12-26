@@ -43,6 +43,8 @@ struct EeveeSpotify: Tweak {
         switch version {
         case "9.0.48":
             return .lastAvailableiOS15
+        case "9.1.6":
+            return .lastAvailableiOS15
         case "8.9.8":
             return .lastAvailableiOS14
         default:
